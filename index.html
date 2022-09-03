@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid mynavleft">
+          <a class="navbar-brand camptech" href="#"><b>CampTech</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Our Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quiz.html">Quiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="help.html">Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container-fluid mynavright">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              
+                  <img src="https://toppng.com/uploads/preview/facebook-logo-black-facebook-f-icon-sv-11563007376zoyicmzra4.png" width="4%">
+                  <img src="https://static.vecteezy.com/system/resources/previews/003/692/704/non_2x/linkedin-american-business-logo-social-media-icon-black-pictogram-illustration-isolated-on-white-backgroud-free-vector.jpg" width="7%">
+                  <img src="data:image/png;base64,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" width="5%">
+                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="5%">
+               
+            </div>
+          </div>
+      </nav>
+
+      <br><br>
+      <div class="website">
+            
+        <div class="row">
+            <div class="col-lg-3 abc">
+              <div class="card" style="width: 15rem;">
+                <img id="jess" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 align="center" class="card-title">Jess Jonassen</h5>
+                  <ul>
+                    <li>My Courses</li>
+                    <li>Report Card</li>
+                    <li>Notes</li>
+                    <li>Activity</li>  
+                  </ul>
+                  <a href="#" class="btn btn-success">Logout</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-9 def">
+              <h2>The world Best courses</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea iu </p>
+              <br>
+              <div class="buttons">
+                <button type="button" class="btn btn-success tab"><a href="index.html" class="route">All</a></button>
+                <button type="button" class="btn btn-success tab"><a href="web.html" class="route">Web</a></button>
+                <button type="button" class="btn btn-success tab"><a href="app.html" class="route">App</a></button>
+                <button type="button" class="btn btn-success tab"><a href="ai.html" class="route">AI</a></button>
+              </div>
+              <br><br>
+              <div class="section1">
+                <div class="card" style="width: 16rem;">
+                  <img src="https://camptech.netlify.app/static/media/web1.b2e54cbc.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Fontend Development with HTML,CSS, JavaScript & Bootstrap</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!</p>
+                    <a href="#" class="btn tab">Enroll Now</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                  <img src="https://camptech.netlify.app/static/media/web2.eae25fea.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Backend Development with NodeJs</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!</p>
+                    <a href="#" class="btn  tab">Enroll Now</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                  <img src="https://camptech.netlify.app/static/media/web3.2bca3efd.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Complete Fullstack Development</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!</p>
+                    <a href="#" class="btn tab">Enroll Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <br><br>
+              <div class="section2">
+                <div class="card" style="width: 16rem;">
+                  <img src="https://camptech.netlify.app/static/media/app1.0b2e9d69.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">App Development: Beginner to Advance</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!</p>
+                    <a href="#" class="btn tab">Enroll Now</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                  <img src="https://camptech.netlify.app/static/media/ai1.7ed361b2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Play with Artificial Intelligence</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!</p>
+                    <a href="#" class="btn tab">Enroll Now</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                  <img src="https://camptech.netlify.app/static/media/ai2.e49d361c.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">AI with Python</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ea, ab aperiam necessitatibus adipisci sunt facilis itaque non enim est!</p>
+                    <a href="#" class="btn tab">Enroll Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+        </div>
+        
+      </div>
+      <br><br><br>
+
+      <div class="footer">
+        
+        <h5 id="end">Happy coding</h5>
+
+      </div>
+    
+    
+</body>
+</html>

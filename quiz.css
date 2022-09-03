@@ -1,0 +1,48 @@
+.camptech{
+    color: rgb(35, 88, 35);
+}
+
+.mynavleft{
+    margin-left: 20%;
+}
+
+.icon{
+    padding: 0px 0px;
+    
+}
+
+.website{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+#jess{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    align-self: center;
+    object-fit: contain;
+}
+
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+}
+
+
+.footer{
+    width: 70%;
+    background-color: rgb(54, 47, 47);
+    color: white;
+    height: 8vh;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
